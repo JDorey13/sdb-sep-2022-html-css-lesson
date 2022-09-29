@@ -24,15 +24,14 @@
 
     <div id="form-container">
         <form action="submit">
-            <label for="email">Email</label>
-            <input type="email"
+            <label class="form-display" for="email">Email</label>
+            <input id="email-input"class="form-display" type="email"
             placeholder="Type Here"
             autocapitalize="off"
             autocomplete="off">
+            <label class="form-display" for="message">Message</label>
+            <textarea name="message" class="form-display" cols="40" rows="10"></textarea>
             <button id="submit" class="submit">Submit</button>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="40" rows="10"></textarea>
-            
         </form>
     </div>
 
